@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -34,16 +35,43 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Kevin Tom</h1>
-							<p>Software Engineer born and raised in NYC <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<div>
+								<img id="profilepic" src="assets/photo.jpg" alt="">
+							</div>
+							<h1>Hi, my name is Kevin Tom</h1>
+							<p>I am a Software Engineer. </p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="assets/Kevin_Tom_Resume.pdf" class="button scrolly" target="_blank">Resume</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- One -->
+					<!-- ABOUT ME -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>About Me</h2>
+							<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p> -->
+							<div class="features">
+								<section class="aboutMe">
+									<!-- <span class="icon solid major fa-code"></span> -->
+									
+									<p> Born and raised in New York City, I am a Software Engineer with experience in full stack development. 
+										I graduated from New York University Tandon School of Engineering with a major in Business Technology Management in May 2018. 
+										As an experienced technical analyst with a background in agile methodology, I have a strong understanding of project management and the responsibilities of programmers.
+										Click the button below to find out more about my professional experience!
+
+									</p>
+									
+								</section>
+								
+							</div>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+					
+					<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						
 						<section>
@@ -51,9 +79,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Tomflix</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<p>A full stack project inspired by Netflix using Rails for the backend and React for the frontend</p>
 									<ul class="actions">
-										<li><a href="https://tom-flix.herokuapp.com/" class="button">Live Site</a></li>
+										<li><a href="https://tom-flix.herokuapp.com/" class="button" target="_blank">Live Site</a></li>
 									</ul>
 								</div>
 							</div>
@@ -63,9 +91,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>MoAA</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<p>A pathfinder algorithm visualizer demonstrating the efficiency of Dijkstra's Algorithm.</p>
 									<ul class="actions">
-										<li><a href="https://kevinktom.github.io/MoAA/" class="button">Live Site</a></li>
+										<li><a href="https://kevinktom.github.io/MoAA/" class="button" target="_blank">Live Site</a></li>
 									</ul>
 								</div>
 							</div>
@@ -84,64 +112,77 @@
 						</section> -->
 					</section>
 
-				<!-- Two -->
+					<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>Professional Experience</h2>
+							<h2>Skills & Technologies</h2>
 							<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p> -->
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Solutions Analyst</h3>
-									<h4>Vitech Systems Group</h4>
-									<!-- <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p> -->
-									<ul>
-										<li>Created solution design documents that implemented new income annuities functionality to an enterprise proprietary
-										software for MetLife.</li>
-										<li>Composed 300+ regression test cases utilizing PLSQL scripts ensuring complete coverage of accurate core functionality
-										for the upcoming software migration.</li>
-										<li>Integrated the client’s business requirements by acting as a liaison between the client and development team
-										strengthening product quality and communication.</li>
-										<li>Headed the object inventory and data loading modules in preparation for Systems Integration Testing.</li>
-									</ul>
+							<div class="features featuresTechs">
+								<section class="featuresSection">
+									<!-- <span class="icon solid major fa-code"></span> -->
+									<i class="devicon-react-original colored"></i>
+									<h3>React.js</h3>
+									
 								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+
+								<section class="featuresSection">
+									<i class="devicon-javascript-plain"></i>
+									<h3>JavaScript</h3>
+									
 								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+
+								<section class="featuresSection">
+									<i class="devicon-jquery-plain colored"></i>
+									<h3>jQuery</h3>
 								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+
+								<section class="featuresSection">
+									<!-- <span class="icon solid major fa-lock"></span> -->
+									<i class="devicon-rails-plain colored"></i>
+									<h3>Ruby on Rails</h3>
+								
 								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								<section class="featuresSection">
+									<i class="devicon-ruby-plain colored"></i>
+									<h3>Ruby</h3>
 								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+
+								
+								<section class="featuresSection">
+									<i class="devicon-postgresql-plain colored"></i>
+									<h3>PostgreSQL</h3>
+								</section>
+								
+								<section class="featuresSection">
+									<i class="devicon-html5-plain colored"></i>
+									<h3>HTML</h3>
+								</section>
+								
+								<section class="featuresSection">
+									<i class="devicon-css3-plain colored"></i>
+									<h3>CSS</h3>
+								</section>
+								
+								<section class="featuresSection">
+									<i class="devicon-python-plain colored"></i>
+									<h3>Python</h3>
 								</section>
 							</div>
-							<ul class="actions">
+							<!-- <ul class="actions">
 								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</section>
+
+
+
+
 
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Contact</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p> -->
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">

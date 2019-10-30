@@ -1993,12 +1993,17 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-		.features section {
+		/* .features section {
 			padding: 3.5em 3em 1em 7em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
-		}
+		} */
+
+			.features section i{
+				font-size: 50px;
+				/* text-align: center; */
+			}
 
 			.features section:nth-child(-n + 2) {
 				border-top-width: 0;
@@ -2219,6 +2224,30 @@ input, select, textarea {
 				}
 
 		}
+
+	.featuresTechs{
+		justify-content: center;
+		align-items: center;
+	}
+
+	.featuresSection{
+		padding: 1em 1em 1em 1em;
+		width: 33.333333%;
+		border: solid 1px rgba(255, 255, 255, 0.15);
+		position: relative;
+		text-align: center;
+	}
+
+	.aboutMe{
+		/* padding: 3.5em 3em 1em 7em; */
+		/* width: 50%; */
+		/* border: solid 1px rgba(255, 255, 255, 0.15); */
+		width: 100%;
+		height: 200px;
+		margin: 20px;
+		position: relative;
+		color: white;
+	}
 
 /* Form */
 
@@ -3910,3 +3939,11 @@ input, select, textarea {
 			}
 
 		}
+
+#profilepic{
+	width: 21%;
+	position: absolute;
+	right: 250px;
+	/* top: 160px; */
+	border-radius: 50%;
+}
