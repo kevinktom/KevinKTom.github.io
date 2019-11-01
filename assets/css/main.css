@@ -188,6 +188,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.75em;
+		text-shadow: .2px 2px darkgrey;
 	}
 
 		h1.major {
@@ -216,6 +217,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.75em;
+		text-shadow: 1px 1px darkgrey;
 	}
 
 	h3 {
@@ -3034,7 +3036,8 @@ input, select, textarea {
 		}
 
 		.spotlights > section > .image {
-			background-position: center center;
+			/* background-position: center center; */
+			background-position: left;
 			background-size: cover;
 			border-radius: 0;
 			display: block;
@@ -3916,6 +3919,7 @@ input, select, textarea {
 
 		#intro p {
 			font-size: 1.25em;
+			text-shadow: 2px 2px darkgrey;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3973,4 +3977,13 @@ p{
 
 .contactmain{
 	background-color: #502cad !important;
+}
+
+
+.pdates{
+	display: inline;
+}
+
+li{
+	color: white;
 }
