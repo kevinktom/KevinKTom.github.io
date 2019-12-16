@@ -3949,7 +3949,7 @@ input, select, textarea {
 #profilepic{
 	width: 21%;
 	position: absolute;
-	right: 250px;
+	right: 130px;
 	
 	border-radius: 50%;
 }
@@ -3986,9 +3986,4 @@ p{
 
 li{
 	color: white;
-}
-
-.picdiv{
-	position: relative;
-	right: -69px;
 }
