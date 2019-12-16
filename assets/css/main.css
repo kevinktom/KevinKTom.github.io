@@ -3987,3 +3987,8 @@ p{
 li{
 	color: white;
 }
+
+.inner div{
+	position: relative;
+	left: 160px;
+}
