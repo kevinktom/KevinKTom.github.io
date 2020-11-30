@@ -2240,13 +2240,16 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#headerDesc{
+		display: flex;
+	}
+
 	.aboutMe{
 		/* padding: 3.5em 3em 1em 7em; */
 		/* width: 50%; */
 		/* border: solid 1px rgba(255, 255, 255, 0.15); */
 		width: 100%;
-		height: 200px;
-		margin: 20px;
+		margin: .25rem .25rem .25rem .25rem;
 		position: relative;
 		color: white;
 	}
@@ -3958,6 +3961,7 @@ input, select, textarea {
 	position: absolute;
 	opacity: 50%;
 	width: 100%;
+	height: 100%;
 }
 
 p{
