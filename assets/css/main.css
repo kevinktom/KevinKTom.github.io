@@ -2245,9 +2245,6 @@ input, select, textarea {
 	}
 
 	.aboutMe{
-		/* padding: 3.5em 3em 1em 7em; */
-		/* width: 50%; */
-		/* border: solid 1px rgba(255, 255, 255, 0.15); */
 		width: 100%;
 		margin: .25rem .25rem .25rem .25rem;
 		position: relative;
@@ -3950,10 +3947,10 @@ input, select, textarea {
 		}
 
 #profilepic{
-	width: 21%;
-	position: absolute;
-	right: 130px;
-	
+	width: 26%;
+	height: 26%;
+	position: relative;
+	left: 1rem;
 	border-radius: 50%;
 }
 
@@ -3961,6 +3958,7 @@ input, select, textarea {
 	opacity: 50%;
 	width: 100%;
 	height: 100%;
+	position: absolute;
 }
 
 p{
