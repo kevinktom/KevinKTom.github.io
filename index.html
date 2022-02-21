@@ -167,7 +167,7 @@
 							<h2>Contact</h2>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form method="post" action="#" onsubmit="sendEmail()">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -229,6 +229,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function sendEmail() {
+					let xhr = new XMLHttpRequest();
+						xhr.open("POST", "https://formspree.io/f/xgedkrql", true);
+						xhr.setRequestHeader('Content-Type', 'application/json');
+						xhr.send(JSON.stringify({
+						name: document.getElementById("name").value,
+						_replyto: document.getElementById("email").value,
+						message: document.getElementById("message").value
+					}));
+
+   					alert( "Thank you for your email, I will get back to you soon!" );
+				}
+			</script>
 
 	</body>
 </html>
